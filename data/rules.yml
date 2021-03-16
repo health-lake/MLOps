@@ -1,0 +1,23 @@
+version: "2.0"
+
+rules:
+
+- rule: Diga adeus sempre que o usuário se despedir
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Diga adeus sempre que o usuário te agredir
+  steps:
+  - intent: curse
+  - action: utter_goodbye_forever
+  
+- rule: Diga 'Eu sou um bot' sempre que o usuário desafiar
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Diga 'Eu estou preso, me tira daqui?' sempre que o usuário perguntar como está
+  steps:
+  - intent: bot_how_is
+  - action: utter_iamstuck

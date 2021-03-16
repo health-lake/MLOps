@@ -1,0 +1,112 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - Oi
+    - Olá
+    - Bom dia
+    - boa tarde
+    - boa noite
+    - ei
+    - vamos lá
+    - Alô
+
+- intent: goodbye
+  examples: |
+    - bom por hoje
+    - te vejo mais tarde
+    - até mais
+    - tchau
+    - adeus
+    - tenha um bom dia
+    - Vejo você por aí
+    - Bye Bye
+    - até logo
+
+- intent: curse
+  examples: |
+    - Seu bot burro
+    - Vai procurar o que fazer
+    - Você não sabe nada
+    - Seu idiota
+    - Fdp
+    - tnc
+    - robo maluco
+    - vai procurar o que fazer
+
+- intent: search
+  examples: |
+    - Quero dados!
+    - Procuro dados sobre
+    - Estou atrás de dados sobre
+    - Busco informações de doenças
+    - Quero informações de Saúde
+    - Estou em busca de base de dados
+
+- intent: affirm
+  examples: |
+    - sim
+    - s
+    - na verdade
+    - é claro
+    - Isso soa bem
+    - correto
+
+- intent: deny
+  examples: |
+    - não
+    - n
+    - Nunca
+    - Acho que não
+    - não gosto disso
+    - de jeito nenhum
+    - Na verdade não
+
+- intent: mood_great
+  examples: |
+    - perfeito
+    - excelente
+    - surpreendente
+    - sentindo-se como um rei
+    - Maravilhoso
+    - Estou me sentindo muito bem
+    - Estou estou ótimo
+    - Eu sou incrível
+    - Eu vou salvar o mundo
+    - super feliz
+    - extremamente bom
+    - tão perfeito
+    - tão bom
+    - tão perfeito
+
+- intent: mood_unhappy
+  examples: |
+    - Não gostei da sua sugestão
+    - Não foi boa
+    - Não é o que eu esperava
+    - Estou desapontado
+    - super triste
+    - Eu estou tão triste
+    - triste
+    - muito triste
+    - infeliz
+    - não é bom
+    - não muito bom
+    - extremamente triste
+    - tão desapontado
+    - tão triste
+
+- intent: bot_how_is
+  examples: |
+    - Você está bem?
+    - Como você está?
+    - como você se sente?
+    - está se sentindo bem?
+
+- intent: bot_challenge
+  examples: |
+    - Você é um robô?
+    - Você é um humano?
+    - estou falando com um bot?
+    - estou falando com um humano?

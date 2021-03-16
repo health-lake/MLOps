@@ -1,0 +1,69 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: bot_how_is
+  - action: utter_iamgood
+
+- story: happy path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: data path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: search
+  - action: utter_option_one
+
+- story: data path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: search
+  - action: utter_option_one
+  - intent: deny
+  - action: utter_option_two
+
+- story: data path 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: search
+  - action: utter_option_one
+  - intent: deny
+  - action: utter_option_two 
+  - intent: deny
+  - action: utter_option_three 
+  
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_did_what
+  - intent: search
+  - action: utter_option_one
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_did_what
+  - intent: search
+  - action: utter_option_three
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+

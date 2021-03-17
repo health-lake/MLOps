@@ -44,7 +44,7 @@ nlu:
     - Quero informações de Saúde
     - Estou em busca de base de dados
 
-- intent: affirm
+- intent: positive
   examples: |
     - sim
     - s
@@ -52,8 +52,21 @@ nlu:
     - é claro
     - Isso soa bem
     - correto
+    - perfeito
+    - excelente
+    - surpreendente
+    - sentindo-se como um rei
+    - Maravilhoso
+    - Ótimo
+    - Incrível
+    - Eu vou salvar o mundo com isso
+    - super feliz
+    - extremamente bom
+    - tão perfeito
+    - tão bom
+    - tão perfeito
 
-- intent: deny
+- intent: negative
   examples: |
     - não
     - n
@@ -62,26 +75,6 @@ nlu:
     - não gosto disso
     - de jeito nenhum
     - Na verdade não
-
-- intent: mood_great
-  examples: |
-    - perfeito
-    - excelente
-    - surpreendente
-    - sentindo-se como um rei
-    - Maravilhoso
-    - Estou me sentindo muito bem
-    - Estou estou ótimo
-    - Eu sou incrível
-    - Eu vou salvar o mundo
-    - super feliz
-    - extremamente bom
-    - tão perfeito
-    - tão bom
-    - tão perfeito
-
-- intent: mood_unhappy
-  examples: |
     - Não gostei da sua sugestão
     - Não foi boa
     - Não é o que eu esperava

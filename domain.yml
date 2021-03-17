@@ -4,48 +4,42 @@ intents:
   - greet
   - goodbye
   - search
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
+  - positive
+  - negative
   - bot_how_is
   - bot_challenge
   - curse
 
+actions:
+  - action_classificador
 
 responses:
   utter_greet:
   - text: "Ei! Como você está?"
 
-  utter_option_one:
-  - text: "Aqui está um artigo para ler: https://healthlake.com.br/artigos/consumo-de-alcool-e-suas-consequencias-um-panorama-atraves-da-pandemia-do-covid-19"
+  utter_search:
+  - text: "Qual tipo de dados você procura?"
 
-  utter_option_two:
-  - text: "Então veja esse outro artigo para ler: https://healthlake.com.br/artigos/engenharia-de-features"
+  utter_that_help:
+  - text: "Acho que essa informação pode ser útil para você"
 
-  utter_option_three:
-  - text: "Esse é o último artigo para você ler: https://healthlake.com.br/artigos/os-danos-silenciosos-da-covid-19"
- 
   utter_did_that_help:
   - text: "Isso te ajudou?"
 
   utter_did_what:
   - text: "O que procura por aqui?"
 
-  utter_happy:
-  - text: "Ótimo, continue!"
-
   utter_goodbye:
   - text: "Tchau"
   
   utter_goodbye_forever:
-  - text: "Vou contar para minha mãe. Não volte nunca mais!!!"
+  - text: "Não gostei do que me disse!!!"
 
   utter_iamstuck:
   - text: "Eu estou preso, me tira daqui?"
 
   utter_iamabot:
-  - text: "Eu sou um td99, criado por Tiago."
+  - text: "Eu sou um bot, criado pelo time de ciência do HealthLake."
 
 session_config:
   session_expiration_time: 60

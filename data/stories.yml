@@ -7,63 +7,30 @@ stories:
   - intent: greet
   - action: utter_greet
   - intent: bot_how_is
-  - action: utter_iamgood
+  - action: utter_iamstuck
 
 - story: happy path 2
   steps:
   - intent: greet
   - action: utter_greet
   - intent: mood_great
-  - action: utter_happy
+  - action: utter_goodbye
 
 - story: data path
   steps:
   - intent: greet
   - action: utter_greet
   - intent: search
-  - action: utter_option_one
-
+  - action: utter_that_help
+  - action: action_classificador
+  
 - story: data path 2
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: search
-  - action: utter_option_one
-  - intent: deny
-  - action: utter_option_two
-
-- story: data path 3
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: search
-  - action: utter_option_one
-  - intent: deny
-  - action: utter_option_two 
-  - intent: deny
-  - action: utter_option_three 
-  
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
+  - intent: utter_search
   - action: utter_did_what
   - intent: search
-  - action: utter_option_one
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
-
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_did_what
-  - intent: search
-  - action: utter_option_three
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - action: utter_that_help
+  - action: action_classificador
 

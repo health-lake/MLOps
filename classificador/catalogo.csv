@@ -29,3 +29,15 @@ número de diagnósticos de doenças oncológicas;Tratamentos Oncológicos;Os Da
 números de tratamentos, tanto de Quimioterapia, quanto de Radioterapia;Tratamentos Oncológicos;Os Danos Silenciosos da COVID-19;https://healthlake.com.br/artigos/os-danos-silenciosos-da-covid-19
 tratamento do câncer;Tratamentos Oncológicos;Os Danos Silenciosos da COVID-19;https://healthlake.com.br/artigos/os-danos-silenciosos-da-covid-19
 doenças oncológicas na sua grande maioria são silenciosas;Tratamentos Oncológicos;Os Danos Silenciosos da COVID-19;https://healthlake.com.br/artigos/os-danos-silenciosos-da-covid-19
+Qual é a evolução acumulada de casos confirmados vs óbitos?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
+Qual é a evolução diária de casos confirmados?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
+Qual é a variação de casos confirmados por dia?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
+Ranking de Casos por Estado;Covid;Ranking de casos por estado;https://app.powerbi.com/view?r=eyJrIjoiN2UwODYwMzItMjYyNi00NWE1LTlkODEtMmNlMDJjYTQ2YzFlIiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9
+Capilaridade do Covid Lake;Covid;Ranking de casos por estado;https://app.powerbi.com/view?r=eyJrIjoiN2UwODYwMzItMjYyNi00NWE1LTlkODEtMmNlMDJjYTQ2YzFlIiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9
+Novos Casos por Semana;Covid;Evolução de mortes causadas pelo COVID-19 em 2020;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
+Mortes por Semana;Covid;Evolução de mortes causadas pelo COVID-19 em 2020;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
+Média de Casos por Semana;Covid;Evolução de mortes causadas pelo COVID-19 em 2020;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
+Média de Mortes por semana;Covid;Evolução de mortes causadas pelo COVID-19 em 2020;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
+Quantidade de Total por UF;Consumo de Álcool;Análise Fevereiro – Alcoolismo;https://public.tableau.com/profile/health.lake#!/vizhome/AnliseFevereiro-Alcoolismo/Painel1
+Série Histórica de Total em Quantidade e Variação (%);Consumo de Álcool;Análise Fevereiro – Alcoolismo;https://public.tableau.com/profile/health.lake#!/vizhome/AnliseFevereiro-Alcoolismo/Painel1
+Variação (%) de Quantidade de Total;Consumo de Álcool;Análise Fevereiro – Alcoolismo;https://public.tableau.com/profile/health.lake#!/vizhome/AnliseFevereiro-Alcoolismo/Painel1

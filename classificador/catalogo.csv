@@ -29,15 +29,26 @@ número de diagnósticos de doenças oncológicas;Tratamentos Oncológicos;Os Da
 números de tratamentos, tanto de Quimioterapia, quanto de Radioterapia;Tratamentos Oncológicos;Os Danos Silenciosos da COVID-19;https://healthlake.com.br/artigos/os-danos-silenciosos-da-covid-19
 tratamento do câncer;Tratamentos Oncológicos;Os Danos Silenciosos da COVID-19;https://healthlake.com.br/artigos/os-danos-silenciosos-da-covid-19
 doenças oncológicas na sua grande maioria são silenciosas;Tratamentos Oncológicos;Os Danos Silenciosos da COVID-19;https://healthlake.com.br/artigos/os-danos-silenciosos-da-covid-19
-Qual é a evolução acumulada de casos confirmados vs óbitos?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
-Qual é a evolução diária de casos confirmados?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
-Qual é a variação de casos confirmados por dia?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
-Ranking de Casos por Estado;Covid;Ranking de casos por estado;https://app.powerbi.com/view?r=eyJrIjoiN2UwODYwMzItMjYyNi00NWE1LTlkODEtMmNlMDJjYTQ2YzFlIiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9
-Capilaridade do Covid Lake;Covid;Ranking de casos por estado;https://app.powerbi.com/view?r=eyJrIjoiN2UwODYwMzItMjYyNi00NWE1LTlkODEtMmNlMDJjYTQ2YzFlIiwidCI6IjE0Y2JkNWE3LWVjOTQtNDZiYS1iMzE0LWNjMGZjOTcyYTE2MSIsImMiOjh9
-Novos Casos por Semana;Covid;Evolução de mortes causadas pelo COVID-19 em 2020;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
-Mortes por Semana;Covid;Evolução de mortes causadas pelo COVID-19 em 2020;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
-Média de Casos por Semana;Covid;Evolução de mortes causadas pelo COVID-19 em 2020;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
-Média de Mortes por semana;Covid;Evolução de mortes causadas pelo COVID-19 em 2020;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
-Quantidade de Total por UF;Consumo de Álcool;Análise Fevereiro – Alcoolismo;https://public.tableau.com/profile/health.lake#!/vizhome/AnliseFevereiro-Alcoolismo/Painel1
-Série Histórica de Total em Quantidade e Variação (%);Consumo de Álcool;Análise Fevereiro – Alcoolismo;https://public.tableau.com/profile/health.lake#!/vizhome/AnliseFevereiro-Alcoolismo/Painel1
-Variação (%) de Quantidade de Total;Consumo de Álcool;Análise Fevereiro – Alcoolismo;https://public.tableau.com/profile/health.lake#!/vizhome/AnliseFevereiro-Alcoolismo/Painel1
+Qual é a evolução acumulada de casos de covid confirmados versus a quantidade, ou número de óbitos?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
+Qual é a evolução diária de casos de covid confirmados?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
+Qual é a variação de casos de covid confirmados por dia?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
+Qual é a distribuição de casos de covid confirmados por estado?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
+Quais são os estados com mais casos de covid confirmados?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
+Qual é a evolução de casos de covid confirmados por estado?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
+Qual é a distribuição de casos de covid confirmados por município?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
+Quais são os municípios com mais casos de covid confirmados?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
+Qual é a evolução de casos de covid confirmados por município?;Covid;Casos de COVID-19 no Brasil;https://public.tableau.com/profile/rcsalgueiro#!/vizhome/COVIDLake/Casosconfirmados?publish=yes
+Novos casos de covid por semana;Covid;Evolução de mortes causadas pelo COVID-19 em 2020;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
+Mortes por covid por semana;Covid;Evolução de mortes causadas pelo COVID-19 em 2020;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
+Média de casos de covid por semana;Covid;Evolução de mortes causadas pelo COVID-19 em 2020;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
+Média de mortes por covid por semana;Covid;Evolução de mortes causadas pelo COVID-19 em 2020;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
+Evolução e média de casos de covid por dia;Covid;Evolução de mortes causadas pelo COVID-19 em 2021;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
+Evolução diária de covid, média móvel;Covid;Evolução de mortes causadas pelo COVID-19 em 2022;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
+Acúmulo de casos de covid por país, por dia;Covid;Evolução de mortes causadas pelo COVID-19 em 2023;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
+Evolução de casos de covid por país;Covid;Evolução de mortes causadas pelo COVID-19 em 2024;https://public.tableau.com/profile/health.lake#!/vizhome/Covid_16057440996070/VisoGeral?publish=yes
+Quantidade de total de alcoolismo por estado;Consumo de Álcool;Análise Fevereiro – Alcoolismo;https://public.tableau.com/profile/health.lake#!/vizhome/AnliseFevereiro-Alcoolismo/Painel1
+Série Histórica de Total em Quantidade e Variação do alcoolismo;Consumo de Álcool;Análise Fevereiro – Alcoolismo;https://public.tableau.com/profile/health.lake#!/vizhome/AnliseFevereiro-Alcoolismo/Painel1
+Variação da quantidade total do alcoolismo;Consumo de Álcool;Análise Fevereiro – Alcoolismo;https://public.tableau.com/profile/health.lake#!/vizhome/AnliseFevereiro-Alcoolismo/Painel1
+Quantidade de ocorrências por estado relacionadas ao alcoolismo, por tipo de causa;Consumo de Álcool;Análise Fevereiro – Alcoolismo;https://public.tableau.com/profile/health.lake#!/vizhome/AnliseFevereiro-Alcoolismo/Painel1
+Sazonalidade por tipo de ocorrência relacionadas ao alcoolismo;Consumo de Álcool;Análise Fevereiro – Alcoolismo;https://public.tableau.com/profile/health.lake#!/vizhome/AnliseFevereiro-Alcoolismo/Painel1
+Quantidade de ocorrências por tipo de ocorrência relacionadas ao alcoolismo;Consumo de Álcool;Análise Fevereiro – Alcoolismo;https://public.tableau.com/profile/health.lake#!/vizhome/AnliseFevereiro-Alcoolismo/Painel1

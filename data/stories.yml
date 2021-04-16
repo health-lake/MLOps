@@ -2,35 +2,86 @@ version: "2.0"
 
 stories:
 
-- story: happy path
+- story: data path 1
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: bot_how_is
-  - action: utter_iamstuck
-
-- story: happy path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_goodbye
-
-- story: data path
-  steps:
-  - intent: greet
-  - action: utter_greet
+  - action: utter_search
   - intent: search
   - action: utter_that_help
   - action: action_classificador
-  
+  - action: utter_did_that_help
+  - intent: positive
+  - action: utter_did_that_help_more
+  - intent: negative
+  - action: utter_thanks
+
 - story: data path 2
   steps:
   - intent: greet
   - action: utter_greet
-  - intent: utter_search
-  - action: utter_did_what
+  - action: utter_search
   - intent: search
   - action: utter_that_help
   - action: action_classificador
+  - action: utter_did_that_help
+  - intent: negative
+  - action: utter_did_that_help_detail
+  - intent: search
+  - action: utter_that_help
+  - action: action_classificador
+  - action: utter_did_that_help
+  - intent: positive
+  - action: utter_did_that_help_more
+  - intent: negative
+  - action: utter_thanks
 
+- story: data path 3
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_search
+  - intent: search
+  - action: utter_that_help
+  - action: action_classificador
+  - action: utter_did_that_help
+  - intent: positive
+  - action: utter_did_that_help_more
+  - intent: positive
+  - action: utter_did_that_help_detail
+  - intent: search
+  - action: utter_that_help
+  - action: action_classificador
+  - action: utter_did_that_help
+  - intent: positive
+  - action: utter_did_that_help_more
+  - intent: negative
+  - action: utter_thanks
+
+- story: data path 4
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - action: utter_search
+  - intent: search
+  - action: utter_that_help
+  - action: action_classificador
+  - action: utter_did_that_help
+  - intent: positive
+  - action: utter_did_that_help_more
+  - intent: positive
+  - action: utter_did_that_help_detail
+  - intent: search
+  - action: utter_that_help
+  - action: action_classificador
+  - action: utter_did_that_help
+  - intent: negative
+  - action: utter_did_that_help_detail
+  - intent: search
+  - action: utter_that_help
+  - action: action_classificador
+  - action: utter_did_that_help
+  - intent: positive
+  - action: utter_did_that_help_more
+  - intent: negative
+  - action: utter_thanks

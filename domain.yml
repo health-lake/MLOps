@@ -15,20 +15,29 @@ actions:
 
 responses:
   utter_greet:
-  - text: "Ei! Como você está?"
+  - text: "Ei eu sou o bot do HealthLake, e estou aqui para te ajudar!"
 
   utter_search:
-  - text: "Qual tipo de dados você procura?"
+  - text: "Procurando por dados? Dados sobre qual assunto você procura?"
 
   utter_that_help:
-  - text: "Acho que essa informação pode ser útil para você"
+  - text: "Acho que essa informação pode ser útil para você:"
 
   utter_did_that_help:
   - text: "Isso te ajudou?"
 
+  utter_did_that_help_detail:
+  - text: "Poderia detalhar melhor o assunto que você procura?"
+
+  utter_did_that_help_more:
+  - text: "Posso te ajudar com mais alguns dados?"
+
   utter_did_what:
   - text: "O que procura por aqui?"
 
+  utter_thanks:
+  - text: "Obrigado pela visita, sempre que precisar estarei por aqui!"
+  
   utter_goodbye:
   - text: "Tchau"
   

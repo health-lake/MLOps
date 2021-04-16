@@ -43,6 +43,11 @@ nlu:
     - Busco informações de doenças
     - Quero informações de Saúde
     - Estou em busca de base de dados
+    - Tabela de dados
+    - Covid
+    - Violência contra Mulher
+    - Consumo de Álcool
+    - Doenças oncológicas
 
 - intent: positive
   examples: |

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <center>
+      <h1>Seja bem vindo ao BOILERPLATE integrado com webchat</h1>
+      Você deve ver uma bola azul no canto inferior direito do seu navegador.
+    </center>
+    <div id="webchat" />
+    <script src="https://cdn.jsdelivr.net/npm/rasa-webchat/lib/index.min.js"></script>
+    <script>
+        WebChat.default.init({
+            selector: "#webchat",
+            initPayload: "/cumprimentar",
+            socketUrl: "http://localhost:5005",
+            socketPath: "/socket.io/",
+            title: "Tais",
+            backgroundColor: '#FF0000',
+            inputTextFieldHint: "Digite sua mensagem...",
+            connectingText: "Conectando...",
+            hideWhenNotConnected: true,
+            fullScreenMode: false,
+            profileAvatar: "assets/bot.png",
+            openLauncherImage: 'assets/launcher_button.svg',
+            closeLauncherImage: 'assets/launcher_button.svg',
+            params: {
+                images: {
+                    dims: {
+                        width: 300,
+                        height: 200,
+                    }
+                },
+                storage: "session"
+            }
+        })
+    </script>
+</body>
+</html>

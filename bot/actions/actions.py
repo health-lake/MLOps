@@ -13,7 +13,7 @@ from __future__ import unicode_literals
 #from sklearn import metrics
 #from sklearn.model_selection import train_test_split
 #from sklearn.pipeline import Pipeline
-#import pandas as pd
+import pandas as pd
 from joblib import load
 from typing import Any, Text, Dict, List
 from rasa_sdk import Action, Tracker

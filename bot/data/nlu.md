@@ -612,3 +612,7 @@
 - Violência contra Mulher
 - Consumo de Álcool
 - Doenças oncológicas
+- Voce tem dados sobre
+- Quero Dados
+- Dados sobre
+- Informações sobre

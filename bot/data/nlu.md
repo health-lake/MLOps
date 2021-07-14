@@ -599,6 +599,7 @@
 - tnc
 - robo maluco
 - vai procurar o que fazer
+- bot maluco 
 
 ## intent:search
 - Quero dados!

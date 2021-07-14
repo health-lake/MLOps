@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ## intent: greet
   - Oi
   - Olá

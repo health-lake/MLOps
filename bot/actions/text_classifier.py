@@ -23,9 +23,9 @@ class ActionClassificador(Action):
 
     def run(self, dispatcher, tracker, domain):
             
-        df = pd.read_csv("/bot/actions/catalogo.csv",delimiter=";")
+        df = pd.read_csv("/bot/actions/classificador/catalogo.csv",delimiter=";")
         df_classificador = df[['Classificação','Título','Link']].drop_duplicates().reset_index(drop=True).copy()
-        classificador = load('/bot/actions/classificador.joblib')  
+        classificador = load('/bot/actions/classificador/classificador.joblib')  
 
         msg = (tracker.latest_message)['text']
         Texto = [{'Texto': msg}]

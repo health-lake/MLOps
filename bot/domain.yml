@@ -11,6 +11,9 @@ intents:
   - bot_how_is
   - bot_challenge
   - curse
+  - onde_voce_mora
+  - piada
+  - o_que_e_healthlake 
 
 actions:
   - action_classificador
@@ -59,3 +62,26 @@ responses:
   - text: "Acho que não te entendi, você pode me perguntar de novo usando outras palavras?\n"
   - text: "Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta\
       \ de outro jeito?\n"
+  
+  utter_onde_voce_mora:
+  - text: "Eu estou em um lugar legal\n\nDifícil de explicar para humanos como você\
+      \ $user.\n"
+  - text: "Estou morando em um chip de memória RAM\n\nMas é temporário\n\nSó até conseguir\
+      \ achar uma memória cache...\n"
+
+  utter_continuar_conversa:
+  - text: Gostaria de saber algo mais?
+  - text: Em que mais posso te ajudar?
+
+  utter_piada:
+  - text: "Conheço uma piada\n\nA do CPU que apitou e explodiu\n\n01100110010101010101000000111101001001001110100101\n"
+  - text: "É pra já!!!\n\nTenho uma enxada, uma pá e uma foice.\n  \nQuantas ferramentas\
+      \ eu tenho?\n\n...\n\nDuas, porque uma foi-se =)\n"
+  - text: "Por que o Batman colocou o batmóvel no seguro???\n\nPorque ele tem medo\
+      \ que robin =D\n"
+    
+  utter_bot_how_is:
+  - text: "Tudo bem, obrigada! Em que posso te ajudar?\n"
+
+  utter_healthlake_apresenta:
+  - text: "Nós somos um grande lago de dados e queremos revolucionar a saúde brasileira! :D\n Você tem interesse em algum dado?\n" 

@@ -7,6 +7,13 @@
   - ei
   - vamos lá
   - Alô
+  - olá
+  - Ola
+  - Oi
+  - oi
+  - bom dia
+  - boa tarde
+  - boa noite
 
 ## intent: goodbye
   - bom por hoje
@@ -28,6 +35,13 @@
   - tnc
   - robo maluco
   - vai procurar o que fazer
+  - bot maluco
+  - imbecil
+  - nojento
+  - chato
+  - babaca
+  - bot feio
+  - bot, burro
 
 ## intent: search
   - Quero dados!
@@ -41,9 +55,18 @@
   - Violência contra Mulher
   - Consumo de Álcool
   - Doenças oncológicas
+  - Voce tem dados sobre
+  - Quero Dados
+  - Dados sobre
+  - Informações sobre
 
 ## intent: positive
   - sim
+  - confirmo
+  - afirmo
+  - claro
+  - exato
+  - isso mesmo
   - s
   - na verdade
   - é claro
@@ -65,6 +88,19 @@
 
 ## intent: negative
   - não
+  - nao
+  - nao conheco
+  - não quero
+  - escolhi errado
+  - falei errado
+  - duvida
+  - ainda não sei
+  - nenhum
+  - nunca
+  - jamais
+  - nego
+  - cancelo
+  - negativo
   - n
   - Nunca
   - Acho que não
@@ -91,6 +127,25 @@
   - Como você está?
   - como você se sente?
   - está se sentindo bem?
+  - tudo bem
+  - como vai voce
+  - como vao as coisas
+  - opa tudo bem
+  - to bem
+  - tranquilo
+  - estou bem
+  - estou otimo
+  - tudo bem e você
+  - tudo bem
+  - tudo bom
+  - tá bem
+  - ta bem
+  - como vocês esta
+  - como voce esta
+  - como voce ta
+  - como vai você
+  - como vai voce
+  - como vai vc
 
 ## intent: bot_challenge
   - Você é um robô?
@@ -98,23 +153,12 @@
   - estou falando com um bot?
   - estou falando com um humano?
 
-## intent:cumprimentar
-- olá
-- Ola
-- Oi
-- oi
-- bom dia
-- boa tarde
-- boa noite
-- ei
-- vamos lá
-- Alô
-
 ## intent:despedir
-- tchau
-- adeus
-- flw
-- Até mais, bot
+  - tchau
+  - adeus
+  - flw
+  - Até mais, bot
+
 
 ## intent:testa_acoes
 - testa acoes
@@ -123,60 +167,6 @@
 - custom actions
 - test action
 - Rasa actions
-
-## intent:informa_telefone
-- O meu número é [61 99999-9999](telefone)
-- meu telefone é [999999999](telefone)
-- Sim, anota ai meu telefone: [61 99999-9999](telefone))
-- Ok, o meu número de telefone é [999999999](telefone)
-
-## intent:religiao
-- voce acredita em [deus](religiao)
-- [deus](religiao) existe
-- voce e [catolico protestante](religiao)
-- voce tem [religiao](religiao)
-- voce e [mussumano](religiao)
-- [evengelico](religiao)
-- voce e [crente](religiao)
-- voce é [católico](religiao)
-- voce é [ateu](religiao)
-- você é espírita
-- voce e espirita
-- você é religioso
-- qual é o seu deus?
-- qual a sua [religião](religiao)?
-- você acredita em alguma [religião](religiao)?
-
-## intent:time
-- qual o melhor time do brasil
-- qual é o seu time
-- quel e o seu time
-- qual o seu time
-- para qual time você torce
-- para qual time voce torce
-- para qual time vc torce
-- que time voce torce
-- que time vc torce
-- quem vai ser o campeao brasileiro
-- quem vai ser o campeao brasileiro nesse ano
-- time do brasil
-- melhor time
-
-## intent:star_wars
-- [mestre yoda](starwars)
-- citação de [starwars](starwars)
-- cite [yoda](starwars)
-- me manda um concelho [jedi](starwars)
-- sabedoria [jedi](starwars)
-- concelhos [jedi](starwars)
-- [star wars](starwars)
-- concelhos do [yoda](starwars)
-- [guerra nas estrelas](starwars)
-- quero conselhos do yoda
-- lado negro da força
-- lado negro da forca
-- frase de star wars
-- guerra nas estrelas
 
 ## intent:como_estou
 - [como voce é](how)?
@@ -255,38 +245,6 @@
 - você é andrógeno
 - voce e androgeno
 
-## intent:playlist
-- me indica uma música
-- manda uma [playlist](playlist)
-- me fala uma [playlist](playlist) boa
-- quero uma [playlist](playlist)
-- [playlist](playlist)
-- qual a melhor [playlist](playlist)
-- sabe qual [playlist](playlist) é boa?
-- diga uma [playlist](playlist)
-- me indica musica
-- me indica uma playlist
-- indica uma música pra mim
-- indica uma música
-- indica uma musica
-- indicar música
-- indicar musica
-
-## intent:comida
-- Qual a sua [comida preferida](comida)?
-- Que [comida você gosta](comida)?
-- Que [comida vc gosta](comida)?
-- qual a [melhor comida](comida)?
-- Qual seu [lanche preferido](comida)?
-- Qual comida você me sugere?
-- O que você [adora comer](comida)?
-- O que você [gosta de comer](comida)?
-- qual a sua comida favorita
-- o que você prefere comer
-- o que voce prefere comer
-- qual seu rango favorito
-- me fala de comida
-
 ## intent:cor
 - Qual a sua [cor preferida](cor)?
 - Que [cor você gosta](cor)?
@@ -338,15 +296,6 @@
 - você é pai
 - voce e pai
 
-## intent:signo
-- Qual o seu [signoo](signo)?
-- qual é o seu signo
-- qual o seu signo
-- Fala seu [signoo](signo)?
-- diz pra mim qual é seu signo
-- diz pra mim qual e seu signo
-- seu signo
-
 ## intent:triste
 - Estou [triste](triste)
 - Estou muito [triste](triste)
@@ -386,12 +335,6 @@
 - qual a origem do mundo
 - vc gosta de carnaval
 - batatinha quando nasce
-- imbecil
-- nojento
-- chato
-- babaca
-- bot feio
-- bot, burro
 
 ## intent:elogios
 - você é muito educado
@@ -420,27 +363,6 @@
 - como assim
 - e como funciona
 
-## intent:tudo_bem
-- tudo bem
-- como vai voce
-- como vao as coisas
-- opa tudo bem
-- to bem
-- tranquilo
-- estou bem
-- estou otimo
-- tudo bem e você
-- tudo bem
-- tudo bom
-- tá bem
-- ta bem
-- como vocês esta
-- como voce esta
-- como voce ta
-- como vai você
-- como vai voce
-- como vai vc
-
 ## intent: o_que_sei_falar
 - sobre o que você sabe falar
 - o que mais você sabe falar
@@ -458,68 +380,6 @@
 - ajuda eu
 - menu
 
-## intent:afirmar
-- sim
-- confirmo
-- afirmo
-- claro
-- exato
-- isso mesmo
-- s
-- na verdade
-- é claro
-- Isso soa bem
-- correto
-- perfeito
-- excelente
-- surpreendente
-- sentindo-se como um rei
-- Maravilhoso
-- Ótimo
-- Incrível
-- Eu vou salvar o mundo com isso
-- super feliz
-- extremamente bom
-- tão perfeito
-- tão bom
-- tão perfeito
-
-## intent:negar
-- não
-- nao
-- nao conheco
-- não quero
-- escolhi errado
-- falei errado
-- duvida
-- ainda não sei
-- nenhum
-- nunca
-- jamais
-- nego
-- cancelo
-- negativo
-- n
-- Nunca
-- Acho que não
-- não gosto disso
-- de jeito nenhum
-- Na verdade não
-- Não gostei da sua sugestão
-- Não foi boa
-- Não é o que eu esperava
-- Estou desapontado
-- super triste
-- Eu estou tão triste
-- triste
-- muito triste
-- infeliz
-- não é bom
-- não muito bom
-- extremamente triste
-- tão desapontado
-- tão triste
-
 ## intent:objetivo
 - Qual o seu objetivo robo?
 - Qual o seu objetivo robô?
@@ -528,65 +388,6 @@
 - Vc tem algum propósito?
 - Como que vc pode me ser útil?
 - Me fale mais sobre você.
-
-## intent:daria
-- Vc conhece Daria?
-- Você já assistiu Daria?
-- Quem é Daria?
-- Quem é Daria Morgendorffer?
-- série Daria
-- Daria Morgendorffer
-- Daria MTV
-- daria mtv
-- série daria
-- vc já viu Daria?
-- você já viu o desenho Daria?
-- desenho Daria
-- animação daria
-
-## intent:anime
-- Me fale sobre animes
-- Você gosta de anime?
-- Já assistiu anime?
-- me indica um anime
-- anime favorito
-- anime preferido
-- tipo de anime
-- quais animes
-
-## intent:avatar
-- Vc conhece Avatar?
-- Você conhece Avatar?
-- Vc já ouviu falar de Avatar?
-- Você já ouviu falar de Avatar?
-- Eu gosto de Avatar
-- Me fala sobre Avatar
-- Fala sobre Avatar
-- Avatar
-- avatar
-- Você já viu Avatar?
-- Vc já viu Avatar?
-
-## intent:harry_potter
-- voce ja assistiu harry potter?
-- voce conhece harry potter?
-- vamos conversar de harry potter
-- o que voce sabe sobre harry potter?
-- ja ouviu falar sobre hogwarts?
-- vc ja leu harry potter?
-- livros de harry potter
-- filmes de harry potter
-
-## intent:friends
-- Me fale sobre friends
-- Me diga sobre friends 
-- A série friends
-- Quero saber mais sobre friends
-- Me conta sobre friends
-- Vamos conversar sobre friends
-- Vamos falar sobre friends
-- Fale sobre friends
-- Conte sobre friends
 
 ## intent:o_que_e_boss
 - O que é a boss?
@@ -620,21 +421,6 @@
 - Não quero compartilhar meus dados
 - Não quero mais informar meus dados
 
-## intent:request_login
-- Me ajuda a fazer login?
-- Gostaria de fazer login
-- Quero fazer login
-- Formulário de login
-- Rasa forms
-
-## intent:limpar_slots
-- Desejo apagar meus dados
-- Quero limpar os slots
-- clean slots
-- esqueça os meus dados
-- remova meu CPF e data de nascimento
-- limpar dados
-
 ## intent:pedir_conselho
 - Me diga um conselho
 - Me de um conselho
@@ -654,18 +440,6 @@
 - me chamam de [bruna](nome)
 - Se refira a mim como [Brenda](nome)
 - me chamam de [Flor](nome)
-
-## intent:casa_hogwarts
-- Quero saber minha casa de Hogwarts
-- Qual a minha casa de Hogwarts
-- minha casa de hogwarts
-- Sortear casa de Hogwarts
-- Usar chapéu seletor
-- Descobrir minha casa de hogwarts com o chapéu seletor
-- chapéu seletor de hogwarts
-- Saber minha casa de hogwarts
-- Encontrar minha casa de hogwarts
-- Como saber qual a minha casa de hogwarts
 
 ## intent:fatos_sobre_gatos
 - Me conte um fato de [gato](gato)
@@ -689,32 +463,3 @@
 - Quero saber algo dos [gatos](gato)
 - O que voce sabe sobre [gatinho](gato?)
 - o que vc sabe sobre [gatos](gato)?
-
-## intent:curse
-- Seu bot burro
-- Vai procurar o que fazer
-- Você não sabe nada
-- Seu idiota
-- Fdp
-- tnc
-- robo maluco
-- vai procurar o que fazer
-- bot maluco
-
-## intent:search
-- Quero dados!
-- Procuro dados sobre
-- Estou atrás de dados sobre
-- Busco informações de doenças
-- Quero informações de Saúde
-- Estou em busca de base de dados
-- Tabela de dados
-- Covid
-- Violência contra Mulher
-- Consumo de Álcool
-- Doenças oncológicas
-- Voce tem dados sobre
-- Quero Dados
-- Dados sobre
-- Informações sobre
->>>>>>> ada1c83c6acaafbe271e102060fd41b99df9fbca

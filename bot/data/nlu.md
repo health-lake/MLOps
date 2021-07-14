@@ -97,7 +97,7 @@
   - Você é um humano?
   - estou falando com um bot?
   - estou falando com um humano?
-=======
+
 ## intent:cumprimentar
 - olá
 - Ola
